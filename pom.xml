@@ -14,9 +14,9 @@
     <name>io</name>
     <description>Demo project for Spring Boot with websockets</description>
 
-    <properties>
+<!--     <properties>
         <java.version>11</java.version>
-    </properties>
+    </properties> -->
 
     <dependencies>
         <dependency>
@@ -49,6 +49,10 @@
                         </exclude>
                     </excludes>
                 </configuration>
+            </plugin>
+                 <plugin>
+                 <groupId>com.heroku.sdk</groupId>
+                 <artifactId>heroku-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
